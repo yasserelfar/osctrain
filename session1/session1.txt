@@ -1,1 +1,19 @@
-
+mkdir "yasser muhamed"
+cd "yasser muhamed"
+mkdir documents
+cd documents
+touch file1.txt file2.txt file3.txt
+touch .hidden_file
+ls -a
+nano file1.txt
+ cat file1.txt
+mkdir docum-ents
+cd docum-ents
+cd ../..
+cp -r documents  My_Documents
+ls
+cd My_Documents
+ls -a
+cat .hidden_file
+sudo mv file2.txt file3.txt  ~/"yasser muhamed"
+rm -ri "yasser muhamed"
