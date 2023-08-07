@@ -3,17 +3,22 @@ cd "yasser muhamed"
 mkdir documents
 cd documents
 touch file1.txt file2.txt file3.txt
+cd ..
 touch .hidden_file
+ls
 ls -a
+cd documents
 nano file1.txt
  cat file1.txt
-mkdir docum-ents
-cd docum-ents
+mkdir "-"
+cd ~/"yasser muhamed"/document/"-"
 cd ../..
 cp -r documents  My_Documents
 ls
 cd My_Documents
 ls -a
+echo yasso>.hidden_file
 cat .hidden_file
 sudo mv file2.txt file3.txt  ~/"yasser muhamed"
+cd ~
 rm -ri "yasser muhamed"
